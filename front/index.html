@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/front/css/style.css">
+</head>
+<body>
+    <div class="container">
+      <div class="forms-container">
+        <div class="signin-signup">
+          <form action="#" class="sign-in-form" id="frm-login">
+            <h2 class="title">login</h2>
+            <div class="input-field">
+              <i class="fas fa-user"></i>
+              <input type="text" id="login-email" placeholder="Email" />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input type="password" id="login-password" placeholder="Password" />
+            </div>
+            <input type="submit" value="Login" class="btn solid" />
+            <p id="msg-login"></p>
+            
+          </form >
+          <form action="#" class="sign-up-form" id="frm-cadastrar">
+            <h2 class="title">Fazer cadastro</h2>
+            <div class="input-field">
+              <i class="fas fa-user"></i>
+              <input type="text" id="userName" placeholder="Username" />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-envelope"></i>
+              <input type="email" id="userEmail" placeholder="Email" />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input type="password" id="cad-password" placeholder="Password" />
+            </div>
+            <input type="submit" class="btn" value="cadastro" />
+            
+
+          </form>
+        </div>
+      </div>
+
+      <div class="panels-container">
+        <div class="panel left-panel">
+          <div class="content">
+            <h3>Novo aqui?</h3>
+            <p>
+
+            </p>
+            <button class="btn transparent" id="sign-up-btn">
+              Sign up
+            </button>
+          </div>
+          <img src="img/log.svg" class="image" alt="" />
+        </div>
+        <div class="panel right-panel">
+          <div class="content">
+            <h3> Quer ser um de nos?</h3>
+            <p>
+             
+            </p>
+            <button class="btn transparent" id="sign-in-btn">
+              Sign in
+            </button>
+          </div>
+         
+        </div>
+      </div>
+    </div>
+
+    <script src="/front/js/user.js"></script>
+    <script src="/front/js/app.js"></script>
+</body>
+</html>

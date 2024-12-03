@@ -1,0 +1,14 @@
+[
+  {
+    "descricao": "Receita 1",
+    "categoria": "Receita"
+  },
+  {
+    "descricao": "Receita 2",
+    "categoria": "Receita"
+  },
+  {
+    "descricao": "Despesa 1",
+    "categoria": "Despesa"
+  }
+]
